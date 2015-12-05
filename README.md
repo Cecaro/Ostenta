@@ -12,4 +12,4 @@ To make it work on your machine, follow these steps:
 
 ## ToffleJS
 
-This is @nikkorn templating engine!
+This is @nikkorn templating engine! It will be used, partly because it's needed if we want to use templates, but also to showcase what the engine can do!

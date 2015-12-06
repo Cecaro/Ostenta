@@ -10,21 +10,59 @@
 
     <title>Ostenta - Building wonders</title>
 
-    <!-- Bootstrap Core CSS -->
-    <link href="stylesheets/styles.css" rel="stylesheet">
-
-    <!-- Custom CSS -->
+    <!-- All CSS -->
     <link href="stylesheets/main.css" rel="stylesheet">
 
 </head>
 
-<body>
-  <header id="top" class="homepage">
-        <div class="text-vertical-center">
-            <h1>Ostenta</h1>
-            <nav>
-              
-            </nav>
-        </div>
+<body id="body" class="homepage">
+  <div class="container">
+    <header>
+      <div class="text-vertical-center">
+          <h1>Ostenta</h1>
+      </div>
     </header>
+    <div class="content">
+      <div class="menu">
+  			<div class="menu-wrapper">
+  				<ul class="menu-items">
+  					<li class="menu-item">
+  						<button class="menu-item-button">
+  							<i class="menu-item-icon icon icon-reply"></i>
+  						</button>
+  						<div class="menu-item-bounce"></div>
+  					</li>
+  					<li class="menu-item">
+  						<button class="menu-item-button">
+  							<i class="menu-item-icon icon icon-box"></i>
+  						</button>
+  						<div class="menu-item-bounce"></div>
+  					</li>
+  					<li class="menu-item">
+  						<button class="menu-item-button">
+  							<i class="menu-item-icon icon icon-trash"></i>
+  						</button>
+  						<div class="menu-item-bounce"></div>
+  					</li>
+  				</ul>
+  				<button class="menu-toggle-button">
+  					<i class="fa fa-plus menu-toggle-icon"></i>
+  				</button>
+  			</div>
+  	   </div>
+    </div>
+
+    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="800">
+			  <defs>
+			    <filter id="goo">
+			      <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
+			      <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="goo" />
+			      <feComposite in="SourceGraphic" in2="goo" operator="atop"/>
+			    </filter>
+			  </defs>
+			</svg>
+  </div>
 </body>
+
+
+</html>
